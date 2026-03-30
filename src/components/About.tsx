@@ -6,9 +6,18 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          I'm an AI/LLM Engineer with a background in systems and backend
+          engineering. I build production-grade AI systems — RAG pipelines,
+          multi-agent orchestration, and LLM-powered APIs — with a focus on
+          FinTech and regulatory compliance use cases.
+        </p>
+        <p className="para">
+          I hold an MS in Computer Science from Florida State University and
+          currently work as a Systems Project Consultant at FDLE (Florida
+          Department of Law Enforcement) while actively building and deploying
+          AI engineering projects. My flagship project, FinOps Sentinel, is a
+          dual-corpus RAG + LangGraph multi-agent system for real-time
+          compliance intelligence — deployed on Render and Streamlit Cloud.
         </p>
       </div>
     </div>
