@@ -53,23 +53,27 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
-            <div className="work-box" key={index}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
-                  </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>01</h3>
+                <div>
+                  <h4>FinOps Sentinel</h4>
+                  <p>Multi-Agent RAG · AI Engineering</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <h4>Tools and features</h4>
+              <p>Python · LangChain · LangGraph · ChromaDB · FastAPI · Streamlit · GPT-4o-mini · Cohere</p>
+              <p style={{marginTop: "0.5rem", fontSize: "0.85em", opacity: 0.75}}>
+                Production-grade dual-corpus RAG + LangGraph multi-agent system for FinTech compliance intelligence. Ingests PCI-DSS v4.0.1 (413 chunks), routes queries via a QueryClassifier at 95–100% confidence, applies BM25 + vector hybrid retrieval with Cohere Rerank. RAGAS faithfulness: 1.0000.
+              </p>
+              <div style={{display: "flex", gap: "1rem", marginTop: "0.75rem"}}>
+                <a href="https://github.com/ShreyasKhandare/finops-sentinel" target="_blank" data-cursor="disable" style={{color: "var(--accentColor)", textDecoration: "underline"}}>GitHub ↗</a>
+                <a href="https://shreyas-finops-sentinel.streamlit.app/" target="_blank" data-cursor="disable" style={{color: "var(--accentColor)", textDecoration: "underline"}}>Live Demo ↗</a>
+              </div>
             </div>
-          ))}
+            <WorkImage image="/images/placeholder.webp" alt="FinOps Sentinel" />
+          </div>
         </div>
       </div>
     </div>

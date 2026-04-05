@@ -15,43 +15,45 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>MS Computer Science</h4>
+                <h5>Florida State University</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2021 – 2023</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Graduate studies with focus on software systems and applied
+              computing. Built foundation in algorithms, distributed systems,
+              and machine learning fundamentals.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>AI Engineer (Independent Projects)</h4>
+                <h5>Self-Directed</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2024 – Present</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Designed and deployed FinOps Sentinel — a production LangGraph
+              multi-agent RAG system for FinTech compliance intelligence.
+              Stack: Python, LangChain, LangGraph, ChromaDB, FastAPI,
+              Streamlit, GPT-4o-mini, Cohere Rerank.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Systems Project Consultant</h4>
+                <h5>FDLE — Florida Department of Law Enforcement</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2023 – Present</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Building and maintaining enterprise systems using C#, ASP.NET,
+              SQL Server, JavaScript, and SharePoint. Delivering client-facing
+              solutions and internal workflow automation across multiple
+              concurrent government projects.
             </p>
           </div>
         </div>
