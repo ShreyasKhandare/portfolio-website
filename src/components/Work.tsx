@@ -72,7 +72,7 @@ const Work = () => {
                 <a href="https://shreyas-finops-sentinel.streamlit.app/" target="_blank" data-cursor="disable" style={{color: "var(--accentColor)", textDecoration: "underline"}}>Live Demo ↗</a>
               </div>
             </div>
-            <WorkImage image="/images/placeholder.webp" alt="FinOps Sentinel" />
+            <WorkImage image="/images/finops-sentinel.webp" alt="FinOps Sentinel" />
           </div>
         </div>
       </div>
