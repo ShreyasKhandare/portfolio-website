@@ -184,6 +184,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 450px;
+  max-width: 100%;
 }
 .what-border2 {
   position: absolute;
@@ -296,6 +297,7 @@
   .what-content {
     padding: 50px;
     width: 500px;
+    max-width: 100%;
   }
   .what-content p {
     font-size: 14px;
