@@ -6,18 +6,15 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Engineer who owns problems end-to-end — from ambiguous requirements
-          to production systems — in complex, multi-stakeholder environments.
-          MS CS from Florida State University. Currently embedded at FDLE
-          (Florida Department of Law Enforcement) delivering enterprise systems
-          under real government constraints.
+          I build things end-to-end and ship them. MS CS from FSU. Currently
+          embedded at FDLE delivering enterprise systems under real government
+          constraints — no playbook, real stakes.
         </p>
         <p className="para">
-          Independently built and deployed FinOps Sentinel: a production
-          LangGraph multi-agent RAG system for FinTech compliance with RAGAS
-          faithfulness 1.0000. Also built a fully autonomous 8-agent Career
-          Automation System. Fluent across the stack: Python, LangChain,
-          FastAPI, C#, ASP.NET, SQL, React, TypeScript.
+          On the side: production AI systems. FinOps Sentinel is a LangGraph
+          multi-agent RAG pipeline for FinTech compliance — RAGAS faithfulness
+          1.0000, live on Render. I also automated my entire job search with an
+          8-agent system. Full stack: Python, LangChain, C#, ASP.NET, React.
         </p>
       </div>
     </div>

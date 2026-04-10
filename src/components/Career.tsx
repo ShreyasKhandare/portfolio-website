@@ -15,46 +15,47 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>B.Tech in Computer Science</h4>
-                <h5>Rajiv Gandhi Proudyogiki Vishwavidyalaya</h5>
-              </div>
-              <h3>2019 – 2023</h3>
-            </div>
-            <p>
-              Bachelor's degree in Computer Science from RGPV, Bhopal, India.
-              Built strong foundations in data structures, algorithms, databases,
-              and software engineering principles.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>M.S. in Computer Science</h4>
-                <h5>Florida State University — Tallahassee, FL</h5>
-              </div>
-              <h3>2023 – 2025</h3>
-            </div>
-            <p>
-              Graduate studies in software systems and applied computing at FSU.
-              Deepened expertise in distributed systems, machine learning, and
-              AI engineering. Built and shipped production AI systems
-              independently alongside coursework.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
                 <h4>Systems Project Consultant</h4>
                 <h5>FDLE — Florida Department of Law Enforcement</h5>
               </div>
               <h3>Sep 2025 – Present</h3>
             </div>
             <p>
-              Embedded with a statewide government agency delivering full-stack
-              enterprise systems end-to-end — no playbook, real constraints.
-              C#, ASP.NET, SQL Server, JavaScript, SharePoint. Designed SQL
+              Embedded with a statewide government agency — no playbook, real
+              constraints. Building full-stack enterprise systems using C#,
+              ASP.NET, SQL Server, JavaScript, and SharePoint. Designed SQL
               data pipelines and ad-hoc reporting for mission-critical law
               enforcement operations.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>System Engineer Intern</h4>
+                <h5>RRCAT — Dept. of Atomic Energy, Govt. of India</h5>
+              </div>
+              <h3>Feb 2023 – Jun 2023</h3>
+            </div>
+            <p>
+              Built real-time monitoring and automation systems for critical
+              infrastructure using Node.js, MySQL, and RESTful APIs. Achieved
+              25% reduction in maintenance costs and 20% improvement in control
+              accuracy. Maintained CI/CD pipelines on AWS EC2.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>API Developer Intern</h4>
+                <h5>SKITM College</h5>
+              </div>
+              <h3>Jan 2022 – Jun 2022</h3>
+            </div>
+            <p>
+              Developed and deployed a full-stack real-time web application
+              using Python (Django REST Framework), MongoDB, and Vue.js.
+              Improved operational efficiency by 60% for 500+ users. Built
+              accessible, responsive interfaces and automated testing pipelines.
             </p>
           </div>
         </div>
