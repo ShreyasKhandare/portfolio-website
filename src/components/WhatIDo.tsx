@@ -87,28 +87,27 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI ENGINEERING</h3>
-              <h4>LLM Systems & RAG Pipelines</h4>
+              <h3>AI / LLM ENGINEERING</h3>
+              <h4>RAG · Multi-Agent · Deployment</h4>
               <p>
-                Building production-grade AI systems — RAG pipelines,
-                multi-agent orchestration, and LLM-powered APIs focused on
-                FinTech and regulatory compliance.
+                Owning end-to-end delivery of production AI systems — from
+                architecture to deployment. RAG pipelines, LangGraph agents,
+                and LLM-powered APIs for FinTech and enterprise.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">LangChain</div>
                 <div className="what-tags">LangGraph</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">FastAPI</div>
+                <div className="what-tags">RAG</div>
+                <div className="what-tags">Multi-Agent</div>
                 <div className="what-tags">ChromaDB</div>
-                <div className="what-tags">RAG Systems</div>
-                <div className="what-tags">Multi-Agent AI</div>
-                <div className="what-tags">C#</div>
-                <div className="what-tags">ASP.NET</div>
-                <div className="what-tags">SQL</div>
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Git</div>
+                <div className="what-tags">BM25 + Vector</div>
+                <div className="what-tags">Cohere Rerank</div>
+                <div className="what-tags">RAGAS</div>
+                <div className="what-tags">Prompt Engineering</div>
+                <div className="what-tags">FastAPI</div>
+                <div className="what-tags">Streamlit</div>
+                <div className="what-tags">Python</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -132,23 +131,27 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>AI OPS & EVALUATION</h3>
-              <h4>Model Evaluation & Deployment</h4>
+              <h3>BACKEND & SYSTEMS</h3>
+              <h4>Full-Stack · DevOps · Automation</h4>
               <p>
-                Evaluating, deploying, and optimizing LLM systems in
-                production — from prompt engineering to hybrid retrieval
-                and structured API design.
+                Building enterprise systems and automation pipelines
+                across the full stack — government-grade backend to
+                cloud deployment and agentic workflow orchestration.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLM Evaluation (RAGAS)</div>
-                <div className="what-tags">Prompt Engineering</div>
-                <div className="what-tags">Vector Search</div>
-                <div className="what-tags">Hybrid Retrieval</div>
-                <div className="what-tags">Cohere Rerank</div>
-                <div className="what-tags">Streamlit</div>
-                <div className="what-tags">REST APIs</div>
-                <div className="what-tags">SharePoint</div>
+                <div className="what-tags">C#</div>
+                <div className="what-tags">ASP.NET</div>
+                <div className="what-tags">SQL Server</div>
+                <div className="what-tags">Node.js</div>
+                <div className="what-tags">React</div>
+                <div className="what-tags">TypeScript</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">GitHub Actions</div>
+                <div className="what-tags">AWS EC2</div>
+                <div className="what-tags">Azure</div>
+                <div className="what-tags">n8n</div>
+                <div className="what-tags">Vercel / Render</div>
               </div>
               <div className="what-arrow"></div>
             </div>

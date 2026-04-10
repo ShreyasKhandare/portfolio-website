@@ -65,7 +65,7 @@ const Work = () => {
               <h4>Tools and features</h4>
               <p>Python · LangChain · LangGraph · ChromaDB · FastAPI · Streamlit · GPT-4o-mini · Cohere</p>
               <p style={{marginTop: "0.5rem", fontSize: "0.85em", opacity: 0.75}}>
-                Production-grade dual-corpus RAG + LangGraph multi-agent system for FinTech compliance intelligence. Ingests PCI-DSS v4.0.1 (413 chunks), routes queries via a QueryClassifier at 95–100% confidence, applies BM25 + vector hybrid retrieval with Cohere Rerank. RAGAS faithfulness: 1.0000.
+                Production-grade dual-corpus RAG + LangGraph multi-agent system for FinTech compliance intelligence. Ingests PCI-DSS v4.0.1 (413 chunks), routes queries at 95–100% confidence via QueryClassifier, hybrid BM25 + vector retrieval with Cohere Rerank. RAGAS faithfulness: 1.0000.
               </p>
               <div style={{display: "flex", gap: "1rem", marginTop: "0.75rem"}}>
                 <a href="https://github.com/ShreyasKhandare/finops-sentinel" target="_blank" data-cursor="disable" style={{color: "var(--accentColor)", textDecoration: "underline"}}>GitHub ↗</a>
@@ -73,6 +73,26 @@ const Work = () => {
               </div>
             </div>
             <WorkImage image="/images/finops-sentinel.webp" alt="FinOps Sentinel" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>02</h3>
+                <div>
+                  <h4>Career Automation System</h4>
+                  <p>Autonomous Agents · Workflow Orchestration</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Python · Claude API · GitHub Actions · n8n · Telegram Bot API · Gmail API · SerpAPI · SQLite</p>
+              <p style={{marginTop: "0.5rem", fontSize: "0.85em", opacity: 0.75}}>
+                8-agent autonomous system handling job discovery, email triage, resume tailoring, recruiter outreach, and AI intelligence gathering. Config-driven orchestration with Telegram command routing, human-in-the-loop approval gates, and GitHub Actions scheduling.
+              </p>
+              <div style={{display: "flex", gap: "1rem", marginTop: "0.75rem"}}>
+                <a href="https://github.com/ShreyasKhandare/automation-system" target="_blank" data-cursor="disable" style={{color: "var(--accentColor)", textDecoration: "underline"}}>GitHub ↗</a>
+              </div>
+            </div>
+            <WorkImage image="/images/career-automation.webp" alt="Career Automation System" />
           </div>
         </div>
       </div>

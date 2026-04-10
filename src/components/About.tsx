@@ -6,18 +6,18 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I'm an AI/LLM Engineer with a background in systems and backend
-          engineering. I build production-grade AI systems — RAG pipelines,
-          multi-agent orchestration, and LLM-powered APIs — with a focus on
-          FinTech and regulatory compliance use cases.
+          Engineer who owns problems end-to-end — from ambiguous requirements
+          to production systems — in complex, multi-stakeholder environments.
+          MS CS from Florida State University. Currently embedded at FDLE
+          (Florida Department of Law Enforcement) delivering enterprise systems
+          under real government constraints.
         </p>
         <p className="para">
-          I hold an MS in Computer Science from Florida State University and
-          currently work as a Systems Project Consultant at FDLE (Florida
-          Department of Law Enforcement) while actively building and deploying
-          AI engineering projects. My flagship project, FinOps Sentinel, is a
-          dual-corpus RAG + LangGraph multi-agent system for real-time
-          compliance intelligence — deployed on Render and Streamlit Cloud.
+          Independently built and deployed FinOps Sentinel: a production
+          LangGraph multi-agent RAG system for FinTech compliance with RAGAS
+          faithfulness 1.0000. Also built a fully autonomous 8-agent Career
+          Automation System. Fluent across the stack: Python, LangChain,
+          FastAPI, C#, ASP.NET, SQL, React, TypeScript.
         </p>
       </div>
     </div>
