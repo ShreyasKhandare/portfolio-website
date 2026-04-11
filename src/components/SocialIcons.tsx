@@ -58,17 +58,17 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/ShreyasKhandare" target="_blank">
+          <a href="https://github.com/ShreyasKhandare" target="_blank" aria-label="GitHub profile — ShreyasKhandare" rel="noopener noreferrer">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://linkedin.com/in/shreyas-khandare" target="_blank">
+          <a href="https://linkedin.com/in/shreyas-khandare" target="_blank" aria-label="LinkedIn profile — Shreyas Khandare" rel="noopener noreferrer">
             <FaLinkedinIn />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="https://github.com/ShreyasKhandare/resumes/blob/main/Shreyas_Khandare_FDE_v1.docx" target="_blank" data-cursor="disable">
+      <a className="resume-button" href="https://github.com/ShreyasKhandare/resumes/blob/main/Shreyas_Khandare_FDE_v1.docx" target="_blank" data-cursor="disable" aria-label="View resume" rel="noopener noreferrer">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

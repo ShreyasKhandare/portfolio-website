@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0b080c"/>
+
+  <!-- Purple glow blob top-left -->
+  <ellipse cx="120" cy="120" rx="200" ry="200" fill="#7b3fe4" opacity="0.18" filter="url(#blur1)"/>
+  <!-- Purple glow blob bottom-right -->
+  <ellipse cx="1100" cy="520" rx="220" ry="180" fill="#c2a4ff" opacity="0.12" filter="url(#blur1)"/>
+
+  <defs>
+    <filter id="blur1" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <!-- Top accent line -->
+  <rect x="80" y="80" width="60" height="3" rx="2" fill="#c2a4ff"/>
+
+  <!-- SK monogram -->
+  <text
+    x="80"
+    y="140"
+    font-family="'Geist', system-ui, -apple-system, sans-serif"
+    font-size="36"
+    font-weight="700"
+    letter-spacing="2"
+    fill="#c2a4ff"
+  >SK</text>
+
+  <!-- Main name -->
+  <text
+    x="80"
+    y="310"
+    font-family="'Geist', system-ui, -apple-system, sans-serif"
+    font-size="96"
+    font-weight="700"
+    letter-spacing="4"
+    fill="#eae5ec"
+  >SHREYAS</text>
+  <text
+    x="80"
+    y="410"
+    font-family="'Geist', system-ui, -apple-system, sans-serif"
+    font-size="96"
+    font-weight="700"
+    letter-spacing="4"
+    fill="#eae5ec"
+  >KHANDARE</text>
+
+  <!-- Subtitle -->
+  <text
+    x="80"
+    y="475"
+    font-family="'Geist', system-ui, -apple-system, sans-serif"
+    font-size="28"
+    font-weight="300"
+    letter-spacing="3"
+    fill="#c2a4ff"
+  >AI ENGINEER · FORWARD DEPLOYED ENGINEER</text>
+
+  <!-- Bottom separator -->
+  <rect x="80" y="510" width="1040" height="1" fill="#363636"/>
+
+  <!-- URL hint -->
+  <text
+    x="80"
+    y="545"
+    font-family="'Geist', system-ui, -apple-system, sans-serif"
+    font-size="18"
+    font-weight="300"
+    letter-spacing="1"
+    fill="#5e5e5e"
+  >shreyaskhandare.dev</text>
+
+  <!-- GitHub + LinkedIn -->
+  <text
+    x="1120"
+    y="545"
+    text-anchor="end"
+    font-family="'Geist', system-ui, -apple-system, sans-serif"
+    font-size="18"
+    font-weight="300"
+    letter-spacing="1"
+    fill="#5e5e5e"
+  >github.com/ShreyasKhandare</text>
+</svg>
