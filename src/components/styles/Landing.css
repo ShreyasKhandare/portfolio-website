@@ -363,3 +363,62 @@ h2.landing-info-h2 {
     font-size: 75px;
   }
 }
+
+/* ===================================================================
+   MOBILE HERO: Stack role text below name at top-left
+   Prevents overlap with the 3D character model
+   =================================================================== */
+@media screen and (max-width: 1024px) {
+  /* Tighten the intro block up */
+  .landing-intro {
+    top: 9%;
+  }
+
+  /* Lift landing-info to sit just below the name (not at viewport bottom) */
+  .landing-info {
+    top: 9%;
+    left: 0;
+    right: auto;
+    bottom: auto;
+    transform: none;
+    text-align: left;
+    /* Offset below the intro block: greeting (~33px) + name h1 2-lines (~90px) + gap */
+    padding-top: 130px;
+  }
+
+  /* Tagline — keep tight and small */
+  .landing-info h3 {
+    font-size: 11px !important;
+    letter-spacing: 1.5px;
+    margin-bottom: 3px;
+  }
+
+  /* Flip container */
+  .landing-info h2 {
+    font-size: 14px !important;
+    line-height: 18px;
+    margin-top: -3px;
+    margin-left: 0;
+  }
+
+  /* The accent big text ("AI Systems" / "End-to-End Delivery") */
+  h2.landing-info-h2 {
+    font-size: 16px !important;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+/* Slightly larger on mid-range tablets (500–768px) */
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+  .landing-info h3 {
+    font-size: 12px !important;
+  }
+  .landing-info h2 {
+    font-size: 16px !important;
+    line-height: 20px;
+  }
+  h2.landing-info-h2 {
+    font-size: 18px !important;
+  }
+}

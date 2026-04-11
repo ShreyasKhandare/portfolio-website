@@ -1,48 +1,50 @@
 .about-section {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   place-items: center;
   position: relative;
   opacity: 1;
   height: auto;
   width: var(--cWidth);
   margin: auto;
+  text-align: center;
 }
 .about-me {
   padding: 50px 0px;
   padding-bottom: 0;
   width: 500px;
   max-width: calc(100% - 15px);
+  text-align: center;
 }
 .about-me h3 {
-  font-size: 25px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 7px;
   font-weight: 400;
   color: var(--accentColor);
+  margin-bottom: 28px;
 }
 
 .about-me p {
-  font-size: 33px;
-  font-weight: 600;
-  line-height: 36px;
-  letter-spacing: 1px;
+  /* Lora — elegant serif italic, human and readable */
+  font-family: 'Lora', Georgia, serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  color: rgba(234, 229, 236, 0.88);
+  margin-bottom: 18px;
 }
 
-@media only screen and (min-width: 600px) {
-  .about-section {
-    justify-content: center;
-  }
-}
 @media only screen and (min-width: 768px) {
   .about-me {
-    width: 500px;
+    width: 520px;
     max-width: calc(100% - 70px);
-    transform: translateY(0%);
   }
-  .about-section {
-    opacity: 1;
+  .about-me p {
+    font-size: 22px;
   }
 }
 @media only screen and (min-width: 1025px) {
@@ -53,19 +55,24 @@
     height: var(--vh);
     padding: 0px;
     opacity: 1;
+    text-align: left;
   }
   .about-me {
     padding: 0px;
     width: 50%;
+    text-align: left;
   }
   .about-me p {
-    font-size: 1.9vw;
-    line-height: 2.3vw;
+    font-size: 1.55vw;
+    line-height: 2.0vw;
+  }
+  .about-me h3 {
+    text-align: left;
   }
 }
 @media only screen and (min-width: 1950px) {
   .about-me p {
-    font-size: 2.5rem;
-    line-height: 2.7rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
   }
 }
