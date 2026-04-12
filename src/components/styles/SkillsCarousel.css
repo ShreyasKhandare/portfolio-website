@@ -1,0 +1,180 @@
+/* ============================================================
+   Skills Carousel — infinite marquee below the floating balls
+   Two rows, opposite scroll directions
+   ============================================================ */
+
+.skills-carousel-section {
+  width: 100%;
+  padding: 48px 0 64px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  background: transparent;
+}
+
+/* Subtle label */
+.skills-carousel-label {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--accentColor);
+  opacity: 0.5;
+  margin: 0 0 28px;
+}
+
+/* Each row wrapper — edge fades via mask */
+.skills-carousel-overflow {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 12px;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    #000 8%,
+    #000 92%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    #000 8%,
+    #000 92%,
+    transparent 100%
+  );
+}
+.skills-carousel-overflow:last-child {
+  margin-bottom: 0;
+}
+
+/* The scrolling track — width is auto (two copies of items) */
+.skills-carousel-track {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  will-change: transform;
+}
+
+/* Pause on hover */
+.skills-carousel-overflow:hover .skills-carousel-track {
+  animation-play-state: paused;
+}
+
+/* Row 1: left */
+.skills-carousel-track.sk-left {
+  animation: sk-scroll-left 35s linear infinite;
+}
+
+/* Row 2: right */
+.skills-carousel-track.sk-right {
+  animation: sk-scroll-right 40s linear infinite;
+}
+
+/* Individual skill pill */
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 14px;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(194, 164, 255, 0.12);
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background 0.25s, border-color 0.25s;
+  cursor: default;
+}
+
+.skill-badge:hover {
+  background: rgba(194, 164, 255, 0.08);
+  border-color: rgba(194, 164, 255, 0.3);
+}
+
+.skill-badge img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  flex-shrink: 0;
+  /* Tint local webp images to purple accent */
+  border-radius: 3px;
+}
+
+/* Dot for skills without icons */
+.skill-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--accentColor);
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+
+.skill-badge span:not(.skill-dot) {
+  font-family: "Geist", sans-serif;
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: rgba(234, 229, 236, 0.75);
+}
+
+/* ============================================================
+   Keyframes
+   ============================================================ */
+
+@keyframes sk-scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    /* -50% because track contains 2× the items */
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes sk-scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+
+@media only screen and (max-width: 768px) {
+  .skills-carousel-section {
+    padding: 32px 0 48px;
+  }
+
+  .skills-carousel-track.sk-left {
+    /* Slightly slower on mobile */
+    animation-duration: 28s;
+  }
+  .skills-carousel-track.sk-right {
+    animation-duration: 32s;
+  }
+
+  .skill-badge {
+    padding: 6px 12px;
+    gap: 7px;
+  }
+
+  .skill-badge img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .skill-badge span:not(.skill-dot) {
+    font-size: 11.5px;
+  }
+}
+
+@media only screen and (prefers-reduced-motion: reduce) {
+  .skills-carousel-track {
+    animation: none !important;
+  }
+}
